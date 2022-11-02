@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assure Api Test Cases">
+    <test name="Request for getting the status code">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Test.GetRequest"/>
+        </classes>
+    </test>
+    <test name="Request for creating a user">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Test.PostRequest"/>
+        </classes>
+    </test>
+    <test name="Request for updating a user">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Test.PutRequest"/>
+        </classes>
+    </test>
+    <test name="Request for deleting a user">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Test.DeleteRequest"/>
+        </classes>
+    </test>
+</suite>
+
+
+
